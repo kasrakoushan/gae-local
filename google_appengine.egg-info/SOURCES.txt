@@ -1,0 +1,7 @@
+README
+google/__init__.py
+google_appengine.egg-info/PKG-INFO
+google_appengine.egg-info/SOURCES.txt
+google_appengine.egg-info/dependency_links.txt
+google_appengine.egg-info/not-zip-safe
+google_appengine.egg-info/top_level.txt
