@@ -53,8 +53,9 @@ try:
 
   if googledatastore.VERSION >= _MIN_CLOUD_DATASTORE_VERSION:
     _CLOUD_DATASTORE_ENABLED = True
-except ImportError:
-  pass
+except ImportError as err:
+  import logging
+  logging.exception(err)
 except AttributeError:
 
   pass
