@@ -54,7 +54,8 @@ try:
   if googledatastore.VERSION >= _MIN_CLOUD_DATASTORE_VERSION:
     _CLOUD_DATASTORE_ENABLED = True
 except ImportError as err:
-  raise err
+  import pdb
+  pdb.set_trace()
 except AttributeError:
 
   pass
